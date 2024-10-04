@@ -1,0 +1,154 @@
+.news-card {
+  position: relative;
+  overflow: hidden;
+  border: none;
+  border-radius: 8px;
+  background-color: #fff;
+  transition: transform 0.3s ease-in-out;
+  text-align: left;
+  padding-bottom: 15px;
+}
+
+.news-card:hover {
+  transform: translateY(-5px);
+}
+
+.large-card .news-image {
+  height: 400px;
+}
+
+.small-card .news-image {
+  height: 200px;
+}
+
+.news-image {
+  background-size: cover;
+  background-position: center;
+  height: 200px;
+  border-radius: 8px 8px 0 0;
+}
+
+.list-view-card {
+  display: flex;
+  align-items: flex-start;
+}
+
+.list-view-image {
+  height: 150px;
+  width: 150px;
+  margin-right: 20px;
+  border-radius: 8px;
+}
+
+.news-content {
+  padding: 15px;
+}
+
+.news-title {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 5px;
+  color: #000;
+}
+
+.news-title a,
+.news-title a:hover {
+  text-decoration: none;
+  color: #000;
+}
+
+.news-date {
+  font-size: 14px;
+  color: #6c757d;
+  margin-bottom: 10px;
+}
+
+.news-description {
+  font-size: 14px;
+  color: #000;
+  margin-bottom: 10px;
+}
+
+.news-footer {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+}
+
+.news-reporter {
+  font-weight: bold;
+  font-size: 14px;
+  color: #000;
+  text-decoration: none;
+}
+
+
+.read-more-btn {
+  font-size: 14px;
+  font-weight: bold;
+  color: #007bff;
+  text-decoration: none;
+  align-self: flex-end;
+  display: inline-flex;
+  align-items: center;
+}
+
+.read-more-btn i {
+  margin-left: 5px;
+}
+
+.read-more-btn:hover {
+  text-decoration: underline;
+  color: #0056b3;
+}
+
+.text-center {
+  margin-top: 20px;
+}
+
+.news-overlay {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  background: rgba(0, 0, 0, 0.6);
+  color: white;
+  padding: 10px;
+  text-align: left;
+}
+
+.row-equal-height {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.row-equal-height > .col {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+.list-view-card {
+  display: flex;
+  align-items: flex-start;
+}
+
+.list-view-image {
+  width: 150px;
+  height: 150px;
+  margin-right: 20px;
+  border-radius: 8px;
+}
+
+.list-view-card .news-content {
+  flex-grow: 1;
+  padding: 0;
+}
+
+.list-view-card .news-footer {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px;
+}
+.list-view-card .news-content {
+    flex-grow: 1;
+  }
